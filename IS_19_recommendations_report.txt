@@ -1,0 +1,284 @@
+*** SYNTHETIC DATA ***
+================================================================================
+IS_19 INFRASENSE RECOMMENDATIONS REPORT
+================================================================================
+
+
+======================================================================
+District: Bagalkote (KA-001) | Cluster: 2
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 20.9): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 5.8): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 27.5): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 20.8): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 2.4): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+
+======================================================================
+District: Ballari (KA-002) | Cluster: 1
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 0.0): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 36.3): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 1.2): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 2.1): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Annual average PM2.5 (Score: 33.7): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+
+======================================================================
+District: Belagavi (KA-003) | Cluster: 2
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 8.3): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 23.2): Promote skill development aligned to local MSME sectors [SDG 8.5]
+  • [HIGH] Household internet penetration (Score: 11.7): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] MSME density (Score: 32.4): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3]
+  • [HIGH] Patent applications per 100,000 (Score: 0.0): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+
+======================================================================
+District: Bengaluru Rural (KA-004) | Cluster: 1
+======================================================================
+  • [HIGH] Patent applications per 100,000 (Score: 5.6): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Road density (Score: 15.5): Invest in road expansion; prioritise rural connectivity corridors [SDG 9.1] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 0.2): Establish district startup incubators; link to Startup Karnataka [SDG 9.b] [lags cluster peers]
+  • [HIGH] Waste processing rate (Score: 18.2): Upgrade waste processing plants; promote source segregation [SDG 11.6] [lags cluster peers]
+  • [MED]  Household internet penetration (Score: 42.2): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+
+======================================================================
+District: Bengaluru Urban (KA-005) | Cluster: 0
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 15.8): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c]
+  • [HIGH] Renewable energy capacity (Score: 28.8): Expand solar and wind; promote rooftop solar [SDG 7.2]
+  • [HIGH] Rural connectivity (Score: 4.8): Accelerate PMGSY; target unconnected habitations [SDG 9.1]
+  • [MED]  Industrial employment rate (Score: 44.3): Promote skill development aligned to local MSME sectors [SDG 8.5]
+  • [MED]  Annual average PM2.5 (Score: 50.0): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6]
+
+======================================================================
+District: Bidar (KA-006) | Cluster: 1
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 17.5): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Forest cover percentage (Score: 7.4): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 12.3): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 7.8): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Renewable energy capacity (Score: 21.7): Expand solar and wind; promote rooftop solar [SDG 7.2] [lags cluster peers]
+
+======================================================================
+District: Chamarajanagar (KA-007) | Cluster: 2
+======================================================================
+  • [HIGH] Household internet penetration (Score: 9.4): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 10.6): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 1.8): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Road density (Score: 2.1): Invest in road expansion; prioritise rural connectivity corridors [SDG 9.1] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 0.7): Establish district startup incubators; link to Startup Karnataka [SDG 9.b] [lags cluster peers]
+
+======================================================================
+District: Chikkaballapura (KA-008) | Cluster: 1
+======================================================================
+  • [HIGH] Forest cover percentage (Score: 37.2): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 30.3): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 31.3): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 7.0): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Public transport coverage (Score: 5.7): Expand bus routes to underserved areas [SDG 11.2] [lags cluster peers]
+
+======================================================================
+District: Chikkamagaluru (KA-009) | Cluster: 2
+======================================================================
+  • [HIGH] Forest cover percentage (Score: 21.1): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 12.2): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Household internet penetration (Score: 32.5): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 26.2): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 0.0): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+
+======================================================================
+District: Chitradurga (KA-010) | Cluster: 1
+======================================================================
+  • [HIGH] Household internet penetration (Score: 0.0): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 2.6): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Annual average PM2.5 (Score: 29.0): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 1.2): Establish district startup incubators; link to Startup Karnataka [SDG 9.b]
+  • [HIGH] Waste processing rate (Score: 35.9): Upgrade waste processing plants; promote source segregation [SDG 11.6] [lags cluster peers]
+
+======================================================================
+District: Dakshina Kannada (KA-011) | Cluster: 2
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 35.1): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Forest cover percentage (Score: 23.2): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 24.4): Promote skill development aligned to local MSME sectors [SDG 8.5]
+  • [HIGH] Household internet penetration (Score: 14.4): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 12.5): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+
+======================================================================
+District: Davanagere (KA-012) | Cluster: 2
+======================================================================
+  • [HIGH] Industrial employment rate (Score: 21.9): Promote skill development aligned to local MSME sectors [SDG 8.5]
+  • [HIGH] Household internet penetration (Score: 8.3): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] MSME density (Score: 9.6): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 5.3): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Annual average PM2.5 (Score: 36.0): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+
+======================================================================
+District: Dharwad (KA-013) | Cluster: 2
+======================================================================
+  • [HIGH] Forest cover percentage (Score: 25.3): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 7.1): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 39.3): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 1.8): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 7.0): Support IP awareness in colleges and research institutions [SDG 9.b]
+
+======================================================================
+District: Gadag (KA-014) | Cluster: 1
+======================================================================
+  • [HIGH] Industrial employment rate (Score: 27.7): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] MSME density (Score: 28.3): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 7.4): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Public transport coverage (Score: 28.1): Expand bus routes to underserved areas [SDG 11.2] [lags cluster peers]
+  • [HIGH] Rural connectivity (Score: 12.6): Accelerate PMGSY; target unconnected habitations [SDG 9.1] [lags cluster peers]
+
+======================================================================
+District: Hassan (KA-015) | Cluster: 1
+======================================================================
+  • [HIGH] Literacy rate (7+) (Score: 1.0): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 8.1): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Startups per 100,000 (Score: 1.6): Establish district startup incubators; link to Startup Karnataka [SDG 9.b]
+  • [HIGH] Waste processing rate (Score: 26.4): Upgrade waste processing plants; promote source segregation [SDG 11.6] [lags cluster peers]
+  • [MED]  Forest cover percentage (Score: 40.1): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+
+======================================================================
+District: Haveri (KA-016) | Cluster: 1
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 4.7): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 20.6): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 0.1): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Renewable energy capacity (Score: 11.4): Expand solar and wind; promote rooftop solar [SDG 7.2] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 1.7): Establish district startup incubators; link to Startup Karnataka [SDG 9.b]
+
+======================================================================
+District: Kalaburagi (KA-017) | Cluster: 1
+======================================================================
+  • [HIGH] Patent applications per 100,000 (Score: 3.5): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Public transport coverage (Score: 16.5): Expand bus routes to underserved areas [SDG 11.2] [lags cluster peers]
+  • [HIGH] Renewable energy capacity (Score: 5.4): Expand solar and wind; promote rooftop solar [SDG 7.2] [lags cluster peers]
+  • [HIGH] Rural connectivity (Score: 38.9): Accelerate PMGSY; target unconnected habitations [SDG 9.1] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 0.7): Establish district startup incubators; link to Startup Karnataka [SDG 9.b] [lags cluster peers]
+
+======================================================================
+District: Kodagu (KA-018) | Cluster: 2
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 7.1): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Forest cover percentage (Score: 23.9): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 13.1): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 27.9): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 20.3): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+
+======================================================================
+District: Kolar (KA-019) | Cluster: 1
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 33.7): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 29.4): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 36.0): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 34.5): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 4.5): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+
+======================================================================
+District: Koppal (KA-020) | Cluster: 2
+======================================================================
+  • [HIGH] Industrial employment rate (Score: 11.7): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 5.1): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 7.4): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 4.2): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Public transport coverage (Score: 39.5): Expand bus routes to underserved areas [SDG 11.2] [lags cluster peers]
+
+======================================================================
+District: Mandya (KA-021) | Cluster: 2
+======================================================================
+  • [HIGH] Industrial employment rate (Score: 22.1): Promote skill development aligned to local MSME sectors [SDG 8.5]
+  • [HIGH] Patent applications per 100,000 (Score: 6.2): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Public transport coverage (Score: 27.2): Expand bus routes to underserved areas [SDG 11.2] [lags cluster peers]
+  • [HIGH] Road density (Score: 9.3): Invest in road expansion; prioritise rural connectivity corridors [SDG 9.1] [lags cluster peers]
+  • [HIGH] Rural connectivity (Score: 0.0): Accelerate PMGSY; target unconnected habitations [SDG 9.1] [lags cluster peers]
+
+======================================================================
+District: Mysuru (KA-022) | Cluster: 2
+======================================================================
+  • [HIGH] Forest cover percentage (Score: 18.8): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 0.0): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Household internet penetration (Score: 1.7): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 8.5): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 1.1): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+
+======================================================================
+District: Raichur (KA-023) | Cluster: 1
+======================================================================
+  • [HIGH] Patent applications per 100,000 (Score: 3.1): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Renewable energy capacity (Score: 17.1): Expand solar and wind; promote rooftop solar [SDG 7.2] [lags cluster peers]
+  • [HIGH] Road density (Score: 31.2): Invest in road expansion; prioritise rural connectivity corridors [SDG 9.1] [lags cluster peers]
+  • [HIGH] Rural connectivity (Score: 32.2): Accelerate PMGSY; target unconnected habitations [SDG 9.1] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 0.8): Establish district startup incubators; link to Startup Karnataka [SDG 9.b] [lags cluster peers]
+
+======================================================================
+District: Ramanagara (KA-024) | Cluster: 2
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 37.1): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 12.1): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] MSME density (Score: 13.2): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 3.7): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Annual average PM2.5 (Score: 30.3): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+
+======================================================================
+District: Shivamogga (KA-025) | Cluster: 2
+======================================================================
+  • [HIGH] Forest cover percentage (Score: 17.1): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Household internet penetration (Score: 11.6): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] MSME density (Score: 31.1): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3]
+  • [HIGH] Patent applications per 100,000 (Score: 5.0): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Annual average PM2.5 (Score: 33.3): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+
+======================================================================
+District: Tumakuru (KA-026) | Cluster: 2
+======================================================================
+  • [HIGH] Industrial employment rate (Score: 22.7): Promote skill development aligned to local MSME sectors [SDG 8.5]
+  • [HIGH] Household internet penetration (Score: 37.3): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c]
+  • [HIGH] MSME density (Score: 13.8): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 3.5): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Annual average PM2.5 (Score: 1.7): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+
+======================================================================
+District: Udupi (KA-027) | Cluster: 2
+======================================================================
+  • [HIGH] Broadband per 1,000 population (Score: 36.2): Increase broadband infrastructure; promote CSC digital service points [SDG 9.c] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 9.9): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Household internet penetration (Score: 24.1): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 12.1): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] MSME density (Score: 28.1): Strengthen MSME clusters; improve credit and market linkages [SDG 8.3]
+
+======================================================================
+District: Uttara Kannada (KA-028) | Cluster: 2
+======================================================================
+  • [HIGH] Forest cover percentage (Score: 19.4): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Household internet penetration (Score: 12.5): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Literacy rate (7+) (Score: 0.0): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 5.6): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Annual average PM2.5 (Score: 18.7): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+
+======================================================================
+District: Vijayapura (KA-029) | Cluster: 1
+======================================================================
+  • [HIGH] Literacy rate (7+) (Score: 8.0): Expand adult literacy; improve secondary school retention [SDG 4.6] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 8.2): Support IP awareness in colleges and research institutions [SDG 9.b]
+  • [HIGH] Public transport coverage (Score: 31.9): Expand bus routes to underserved areas [SDG 11.2] [lags cluster peers]
+  • [HIGH] Renewable energy capacity (Score: 39.4): Expand solar and wind; promote rooftop solar [SDG 7.2]
+  • [HIGH] Road density (Score: 37.9): Invest in road expansion; prioritise rural connectivity corridors [SDG 9.1] [lags cluster peers]
+
+======================================================================
+District: Yadgir (KA-030) | Cluster: 1
+======================================================================
+  • [HIGH] Household internet penetration (Score: 2.9): Deploy BharatNet last-mile; subsidise household internet [SDG 9.c] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 1.4): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Annual average PM2.5 (Score: 10.7): Strengthen air quality monitoring; reduce industrial emissions [SDG 11.6] [lags cluster peers]
+  • [HIGH] Renewable energy capacity (Score: 20.9): Expand solar and wind; promote rooftop solar [SDG 7.2] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 0.1): Establish district startup incubators; link to Startup Karnataka [SDG 9.b] [lags cluster peers]
+
+======================================================================
+District: Vijayanagara (KA-031) | Cluster: 1
+======================================================================
+  • [HIGH] Forest cover percentage (Score: 0.0): Implement afforestation; protect existing green cover [SDG 15.2] [lags cluster peers]
+  • [HIGH] Industrial employment rate (Score: 33.6): Promote skill development aligned to local MSME sectors [SDG 8.5] [lags cluster peers]
+  • [HIGH] Patent applications per 100,000 (Score: 3.1): Support IP awareness in colleges and research institutions [SDG 9.b] [lags cluster peers]
+  • [HIGH] Rural connectivity (Score: 12.9): Accelerate PMGSY; target unconnected habitations [SDG 9.1] [lags cluster peers]
+  • [HIGH] Startups per 100,000 (Score: 1.3): Establish district startup incubators; link to Startup Karnataka [SDG 9.b]

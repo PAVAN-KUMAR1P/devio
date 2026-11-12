@@ -1,0 +1,255 @@
+*** SYNTHETIC DATA ***
+================================================================================
+IS_18 INFRASENSE EXPLAINABILITY REPORT
+================================================================================
+
+SECTION A: PER-DISTRICT SUMMARY
+------------------------------------------------------------
+
+District: Bagalkote (KA-001)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Waste processing rate, Road density, Rural connectivity
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Industrial employment rate
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: -17.4 | Energy & Environment: +2.3 | Human Capital: -15.1 | Industry: -29.4 | Infrastructure: +8.9 | Innovation: -4.0
+
+District: Ballari (KA-002)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Forest cover percentage, Road density, Public transport coverage
+  Top 3 Weakest   Indicators : Broadband per 1,000 population, Renewable energy capacity, Literacy rate (7+)
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: -19.7 | Energy & Environment: -2.1 | Human Capital: -41.4 | Industry: +1.9 | Infrastructure: +22.9 | Innovation: -3.9
+
+District: Belagavi (KA-003)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Renewable energy capacity, Rural connectivity, Public transport coverage
+  Top 3 Weakest   Indicators : Patent applications per 100,000, Startups per 100,000, Broadband per 1,000 population
+  Most Lagging Dimension     : Digital Access
+  Dimension Gap vs KA Mean   : Digital Access: -41.5 | Energy & Environment: +14.2 | Human Capital: +5.4 | Industry: -14.9 | Infrastructure: +18.6 | Innovation: -5.1
+
+District: Bengaluru Rural (KA-004)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : MSME density, Industrial employment rate, Broadband per 1,000 population
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Road density
+  Most Lagging Dimension     : Infrastructure
+  Dimension Gap vs KA Mean   : Digital Access: +8.8 | Energy & Environment: +10.3 | Human Capital: -1.2 | Industry: +51.2 | Infrastructure: -6.9 | Innovation: -3.0
+
+District: Bengaluru Urban (KA-005)
+  Cluster: 0 — High Development
+  Top 3 Strongest Indicators : Forest cover percentage, Patent applications per 100,000, Startups per 100,000
+  Top 3 Weakest   Indicators : Rural connectivity, Broadband per 1,000 population, Renewable energy capacity
+  Most Lagging Dimension     : Infrastructure
+  Dimension Gap vs KA Mean   : Digital Access: +0.8 | Energy & Environment: +9.7 | Human Capital: +47.5 | Industry: +14.9 | Infrastructure: -17.6 | Innovation: +94.2
+
+District: Bidar (KA-006)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Road density, MSME density, Industrial employment rate
+  Top 3 Weakest   Indicators : Startups per 100,000, Forest cover percentage, Patent applications per 100,000
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: -8.7 | Energy & Environment: -7.7 | Human Capital: -30.3 | Industry: +41.5 | Infrastructure: +23.1 | Innovation: -1.6
+
+District: Chamarajanagar (KA-007)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Broadband per 1,000 population, Rural connectivity, Public transport coverage
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Road density
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: +1.1 | Energy & Environment: +14.0 | Human Capital: -32.0 | Industry: +13.4 | Infrastructure: +7.9 | Innovation: -4.6
+
+District: Chikkaballapura (KA-008)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Annual average PM2.5, Road density, Household internet penetration
+  Top 3 Weakest   Indicators : Startups per 100,000, Public transport coverage, Patent applications per 100,000
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: +23.9 | Energy & Environment: +1.4 | Human Capital: -11.3 | Industry: -7.1 | Infrastructure: +4.6 | Innovation: -2.1
+
+District: Chikkamagaluru (KA-009)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Annual average PM2.5, Broadband per 1,000 population, Renewable energy capacity
+  Top 3 Weakest   Indicators : MSME density, Road density, Startups per 100,000
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: +3.9 | Energy & Environment: +9.2 | Human Capital: -16.4 | Industry: -36.5 | Infrastructure: -32.2 | Innovation: -3.3
+
+District: Chitradurga (KA-010)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Literacy rate (7+), MSME density, Forest cover percentage
+  Top 3 Weakest   Indicators : Household internet penetration, Startups per 100,000, Patent applications per 100,000
+  Most Lagging Dimension     : Digital Access
+  Dimension Gap vs KA Mean   : Digital Access: -16.0 | Energy & Environment: +2.4 | Human Capital: +46.4 | Industry: +30.1 | Infrastructure: +12.6 | Innovation: -4.0
+
+District: Dakshina Kannada (KA-011)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Rural connectivity, Public transport coverage, Annual average PM2.5
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Literacy rate (7+)
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: -26.7 | Energy & Environment: -0.7 | Human Capital: -30.1 | Industry: -8.3 | Infrastructure: +14.6 | Innovation: -5.7
+
+District: Davanagere (KA-012)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Road density, Literacy rate (7+), Public transport coverage
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Household internet penetration
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: -14.7 | Energy & Environment: -12.7 | Human Capital: +27.2 | Industry: -26.9 | Infrastructure: +22.0 | Innovation: -2.9
+
+District: Dharwad (KA-013)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Road density, Waste processing rate, Household internet penetration
+  Top 3 Weakest   Indicators : Startups per 100,000, MSME density, Patent applications per 100,000
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: +12.6 | Energy & Environment: +1.8 | Human Capital: -3.3 | Industry: -38.2 | Infrastructure: +7.2 | Innovation: -1.7
+
+District: Gadag (KA-014)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Forest cover percentage, Road density, Household internet penetration
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Rural connectivity
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: +6.4 | Energy & Environment: +3.6 | Human Capital: +21.3 | Industry: -14.7 | Infrastructure: -13.7 | Innovation: -1.8
+
+District: Hassan (KA-015)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Rural connectivity, Industrial employment rate, MSME density
+  Top 3 Weakest   Indicators : Literacy rate (7+), Startups per 100,000, Patent applications per 100,000
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: +28.3 | Energy & Environment: -9.4 | Human Capital: -41.6 | Industry: +44.9 | Infrastructure: +23.6 | Innovation: -1.0
+
+District: Haveri (KA-016)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Public transport coverage, Household internet penetration, Forest cover percentage
+  Top 3 Weakest   Indicators : Patent applications per 100,000, Startups per 100,000, Broadband per 1,000 population
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: -1.9 | Energy & Environment: -4.9 | Human Capital: -22.0 | Industry: +29.1 | Infrastructure: +28.9 | Innovation: -4.9
+
+District: Kalaburagi (KA-017)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Annual average PM2.5, Broadband per 1,000 population, Forest cover percentage
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Renewable energy capacity
+  Most Lagging Dimension     : Infrastructure
+  Dimension Gap vs KA Mean   : Digital Access: +26.0 | Energy & Environment: +12.8 | Human Capital: +3.5 | Industry: +31.8 | Infrastructure: -9.0 | Innovation: -3.7
+
+District: Kodagu (KA-018)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Public transport coverage, Rural connectivity, Household internet penetration
+  Top 3 Weakest   Indicators : Startups per 100,000, Broadband per 1,000 population, Patent applications per 100,000
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: -20.1 | Energy & Environment: -17.7 | Human Capital: -14.7 | Industry: -26.0 | Infrastructure: +19.2 | Innovation: -1.0
+
+District: Kolar (KA-019)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Waste processing rate, Household internet penetration, Road density
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Public transport coverage
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: +2.8 | Energy & Environment: +3.9 | Human Capital: -6.7 | Industry: -10.7 | Infrastructure: -3.5 | Innovation: -3.2
+
+District: Koppal (KA-020)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Forest cover percentage, Household internet penetration, Renewable energy capacity
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Waste processing rate
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: +22.1 | Energy & Environment: +5.7 | Human Capital: -37.5 | Industry: -33.1 | Infrastructure: -26.4 | Innovation: -3.0
+
+District: Mandya (KA-021)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Literacy rate (7+), Broadband per 1,000 population, Forest cover percentage
+  Top 3 Weakest   Indicators : Rural connectivity, Startups per 100,000, Patent applications per 100,000
+  Most Lagging Dimension     : Infrastructure
+  Dimension Gap vs KA Mean   : Digital Access: +18.1 | Energy & Environment: +27.2 | Human Capital: +57.4 | Industry: -5.6 | Infrastructure: -38.0 | Innovation: -2.7
+
+District: Mysuru (KA-022)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Broadband per 1,000 population, Public transport coverage, Annual average PM2.5
+  Top 3 Weakest   Indicators : Industrial employment rate, MSME density, Startups per 100,000
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: -9.2 | Energy & Environment: -11.4 | Human Capital: -34.1 | Industry: -42.1 | Infrastructure: -4.8 | Innovation: -3.5
+
+District: Raichur (KA-023)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Industrial employment rate, MSME density, Literacy rate (7+)
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Renewable energy capacity
+  Most Lagging Dimension     : Infrastructure
+  Dimension Gap vs KA Mean   : Digital Access: +9.6 | Energy & Environment: +2.4 | Human Capital: +37.5 | Industry: +57.3 | Infrastructure: -6.2 | Innovation: -3.9
+
+District: Ramanagara (KA-024)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Renewable energy capacity, Household internet penetration, Literacy rate (7+)
+  Top 3 Weakest   Indicators : Public transport coverage, Startups per 100,000, Patent applications per 100,000
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: +8.1 | Energy & Environment: +8.5 | Human Capital: +33.0 | Industry: -30.0 | Infrastructure: -25.1 | Innovation: -3.1
+
+District: Shivamogga (KA-025)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Public transport coverage, Literacy rate (7+), Rural connectivity
+  Top 3 Weakest   Indicators : Startups per 100,000, Renewable energy capacity, Patent applications per 100,000
+  Most Lagging Dimension     : Energy & Environment
+  Dimension Gap vs KA Mean   : Digital Access: -22.2 | Energy & Environment: -31.1 | Human Capital: +49.8 | Industry: -2.7 | Infrastructure: +4.6 | Innovation: -3.0
+
+District: Tumakuru (KA-026)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Literacy rate (7+), Public transport coverage, Forest cover percentage
+  Top 3 Weakest   Indicators : Waste processing rate, Startups per 100,000, Annual average PM2.5
+  Most Lagging Dimension     : Industry
+  Dimension Gap vs KA Mean   : Digital Access: -9.5 | Energy & Environment: -19.1 | Human Capital: +57.4 | Industry: -24.4 | Infrastructure: +5.3 | Innovation: -4.1
+
+District: Udupi (KA-027)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Forest cover percentage, Public transport coverage, Renewable energy capacity
+  Top 3 Weakest   Indicators : Annual average PM2.5, Startups per 100,000, Road density
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: -21.3 | Energy & Environment: -16.1 | Human Capital: -30.5 | Industry: -23.7 | Infrastructure: -25.8 | Innovation: -1.5
+
+District: Uttara Kannada (KA-028)
+  Cluster: 2 — Development Gaps
+  Top 3 Strongest Indicators : Broadband per 1,000 population, MSME density, Waste processing rate
+  Top 3 Weakest   Indicators : Literacy rate (7+), Road density, Startups per 100,000
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: +3.1 | Energy & Environment: -7.1 | Human Capital: -42.6 | Industry: +21.4 | Infrastructure: -26.5 | Innovation: -2.6
+
+District: Vijayapura (KA-029)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Annual average PM2.5, Forest cover percentage, Household internet penetration
+  Top 3 Weakest   Indicators : Startups per 100,000, Literacy rate (7+), Patent applications per 100,000
+  Most Lagging Dimension     : Human Capital
+  Dimension Gap vs KA Mean   : Digital Access: +32.3 | Energy & Environment: +14.9 | Human Capital: -34.6 | Industry: +3.3 | Infrastructure: -15.9 | Innovation: -0.7
+
+District: Yadgir (KA-030)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Broadband per 1,000 population, Public transport coverage, MSME density
+  Top 3 Weakest   Indicators : Startups per 100,000, Patent applications per 100,000, Household internet penetration
+  Most Lagging Dimension     : Energy & Environment
+  Dimension Gap vs KA Mean   : Digital Access: -0.0 | Energy & Environment: -6.2 | Human Capital: +26.0 | Industry: +33.3 | Infrastructure: +14.7 | Innovation: -5.1
+
+District: Vijayanagara (KA-031)
+  Cluster: 1 — Moderate Development
+  Top 3 Strongest Indicators : Household internet penetration, Road density, Waste processing rate
+  Top 3 Weakest   Indicators : Forest cover percentage, Startups per 100,000, Patent applications per 100,000
+  Most Lagging Dimension     : Innovation
+  Dimension Gap vs KA Mean   : Digital Access: +20.9 | Energy & Environment: +1.8 | Human Capital: +32.8 | Industry: +0.3 | Infrastructure: +13.0 | Innovation: -3.6
+
+================================================================================
+
+SECTION B: CLUSTER PROFILES NARRATIVE
+------------------------------------------------------------
+
+Cluster 0 — High Development
+Cluster 0 — 'High Development' comprises 1 district(s) with an average composite score of 59.8/100. These districts perform notably above the Karnataka average on: Forest cover percentage, Household internet penetration, Literacy rate (7+), MSME density, Patent applications per 100,000, Startups per 100,000. However, they lag significantly behind on: Broadband per 1,000 population, Renewable energy capacity, Rural connectivity. Policy focus should address the weakest dimensions to elevate overall development outcomes. Targeted interventions in the lagging areas can help this cluster converge towards the state's best performers.
+  Distinguishing (above KA mean >15 pts): Forest cover percentage, Household internet penetration, Literacy rate (7+), MSME density, Patent applications per 100,000, Startups per 100,000
+  Distinguishing (below KA mean >15 pts): Broadband per 1,000 population, Renewable energy capacity, Rural connectivity
+
+Cluster 1 — Moderate Development
+Cluster 1 — 'Moderate Development' comprises 14 district(s) with an average composite score of 47.2/100. These districts perform notably above the Karnataka average on: Industrial employment rate, MSME density, Road density. Policy focus should address the weakest dimensions to elevate overall development outcomes. Targeted interventions in the lagging areas can help this cluster converge towards the state's best performers.
+  Distinguishing (above KA mean >15 pts): Industrial employment rate, MSME density, Road density
+
+Cluster 2 — Development Gaps
+Cluster 2 — 'Development Gaps' comprises 16 district(s) with an average composite score of 35.9/100. However, they lag significantly behind on: Industrial employment rate, MSME density, Road density. Policy focus should address the weakest dimensions to elevate overall development outcomes. Targeted interventions in the lagging areas can help this cluster converge towards the state's best performers.
+  Distinguishing (below KA mean >15 pts): Industrial employment rate, MSME density, Road density
+
+================================================================================
+
+SECTION C: TOP 5 MOST REGIONALLY VARIABLE INDICATORS
+------------------------------------------------------------
+  1. Literacy rate (7+) (literacy_rate) — Std Dev: 33.24 — Dimension: Human Capital
+  2. Road density (road_density) — Std Dev: 31.98 — Dimension: Infrastructure
+  3. Household internet penetration (internet_penetration) — Std Dev: 31.98 — Dimension: Digital Access
+  4. Rural connectivity (rural_connectivity) — Std Dev: 30.88 — Dimension: Infrastructure
+  5. Broadband per 1,000 population (broadband_per1k) — Std Dev: 30.78 — Dimension: Digital Access
+
+================================================================================
+END OF REPORT

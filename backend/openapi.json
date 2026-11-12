@@ -1,0 +1,1332 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "InfraSense API",
+    "description": "Backend REST API for Karnataka District Development and Infrastructure Analytics.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/districts": {
+      "get": {
+        "tags": [
+          "districts"
+        ],
+        "summary": "Get All Districts",
+        "description": "List all 31 districts with basic master data.",
+        "operationId": "get_all_districts_districts_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/DistrictSummary"
+                  },
+                  "type": "array",
+                  "title": "Response Get All Districts Districts Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/districts/{district_id}": {
+      "get": {
+        "tags": [
+          "districts"
+        ],
+        "summary": "Get District Profile",
+        "description": "Return full development profile for a single district.",
+        "operationId": "get_district_profile_districts__district_id__get",
+        "parameters": [
+          {
+            "name": "district_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "District Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DistrictProfile"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/indicators": {
+      "get": {
+        "tags": [
+          "indicators"
+        ],
+        "summary": "List Indicators",
+        "description": "List all 14 indicators with metadata (code, name, dimension, direction, unit).",
+        "operationId": "list_indicators_indicators_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/IndicatorInfo"
+                  },
+                  "type": "array",
+                  "title": "Response List Indicators Indicators Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/indicators/stats": {
+      "get": {
+        "tags": [
+          "indicators"
+        ],
+        "summary": "Get Indicator Stats",
+        "description": "Return descriptive statistics for all 14 indicators.",
+        "operationId": "get_indicator_stats_indicators_stats_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/IndicatorStats"
+                  },
+                  "type": "array",
+                  "title": "Response Get Indicator Stats Indicators Stats Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/rankings/overall": {
+      "get": {
+        "tags": [
+          "rankings"
+        ],
+        "summary": "Get Overall Rankings",
+        "description": "Return all 31 districts ranked by their composite overall development score.",
+        "operationId": "get_overall_rankings_rankings_overall_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/RankingEntry"
+                  },
+                  "type": "array",
+                  "title": "Response Get Overall Rankings Rankings Overall Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/rankings/dimension/{dimension}": {
+      "get": {
+        "tags": [
+          "rankings"
+        ],
+        "summary": "Get Dimension Rankings",
+        "description": "Return district rankings for a specific development dimension.",
+        "operationId": "get_dimension_rankings_rankings_dimension__dimension__get",
+        "parameters": [
+          {
+            "name": "dimension",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Dimension"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DimensionRankingEntry"
+                  },
+                  "title": "Response Get Dimension Rankings Rankings Dimension  Dimension  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clusters": {
+      "get": {
+        "tags": [
+          "clusters"
+        ],
+        "summary": "Get Cluster Summary",
+        "description": "Return summary of all clusters from the latest K-Means analysis run.",
+        "operationId": "get_cluster_summary_clusters_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/ClusterSummaryEntry"
+                  },
+                  "type": "array",
+                  "title": "Response Get Cluster Summary Clusters Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clusters/{cluster_id}": {
+      "get": {
+        "tags": [
+          "clusters"
+        ],
+        "summary": "Get Cluster Districts",
+        "description": "Return all districts assigned to a given cluster label.",
+        "operationId": "get_cluster_districts_clusters__cluster_id__get",
+        "parameters": [
+          {
+            "name": "cluster_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Cluster Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClusterDetail"
+                  },
+                  "title": "Response Get Cluster Districts Clusters  Cluster Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/compare": {
+      "get": {
+        "tags": [
+          "compare"
+        ],
+        "summary": "Compare Districts",
+        "description": "Side-by-side comparison of 2 to 5 districts across all 14 indicators\nand composite overall score.",
+        "operationId": "compare_districts_compare_get",
+        "parameters": [
+          {
+            "name": "districts",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Comma-separated district IDs, e.g. KA-001,KA-005",
+              "title": "Districts"
+            },
+            "description": "Comma-separated district IDs, e.g. KA-001,KA-005"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CompareEntry"
+                  },
+                  "title": "Response Compare Districts Compare Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/recommendations/{district_id}": {
+      "get": {
+        "tags": [
+          "recommendations"
+        ],
+        "summary": "Get Recommendations For District",
+        "description": "Return prioritised policy and infrastructure recommendations for a given district.\nQueries district_recommendations table, falling back to computed weakest indicators\nif the table is empty or missing.",
+        "operationId": "get_recommendations_for_district_recommendations__district_id__get",
+        "parameters": [
+          {
+            "name": "district_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "District Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RecommendationEntry"
+                  },
+                  "title": "Response Get Recommendations For District Recommendations  District Id  Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/eda/disparity": {
+      "get": {
+        "tags": [
+          "eda"
+        ],
+        "summary": "Get Regional Disparity",
+        "description": "Return indicators ranked by highest regional disparity (inter-district spread).",
+        "operationId": "get_regional_disparity_eda_disparity_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/EDADisparityEntry"
+                  },
+                  "type": "array",
+                  "title": "Response Get Regional Disparity Eda Disparity Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/eda/outliers": {
+      "get": {
+        "tags": [
+          "eda"
+        ],
+        "summary": "Get Indicator Outliers",
+        "description": "Return districts with indicator values differing by > 2 standard deviations from state mean.",
+        "operationId": "get_indicator_outliers_eda_outliers_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/EDAOutlierEntry"
+                  },
+                  "type": "array",
+                  "title": "Response Get Indicator Outliers Eda Outliers Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/eda/unevenness": {
+      "get": {
+        "tags": [
+          "eda"
+        ],
+        "summary": "Get Development Unevenness",
+        "description": "Return districts ranked by internal development imbalance (highest score range across dimensions).",
+        "operationId": "get_development_unevenness_eda_unevenness_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/EDAUnevennessEntry"
+                  },
+                  "type": "array",
+                  "title": "Response Get Development Unevenness Eda Unevenness Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "root"
+        ],
+        "summary": "Root",
+        "description": "Health check and API metadata.",
+        "operationId": "root__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StatusResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ClusterDetail": {
+        "properties": {
+          "district_id": {
+            "type": "string",
+            "title": "District Id"
+          },
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "overall_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overall Score"
+          },
+          "distance_to_centroid": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Distance To Centroid"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_id",
+          "district_name",
+          "overall_score",
+          "distance_to_centroid"
+        ],
+        "title": "ClusterDetail"
+      },
+      "ClusterSummaryEntry": {
+        "properties": {
+          "run_name": {
+            "type": "string",
+            "title": "Run Name"
+          },
+          "algorithm": {
+            "type": "string",
+            "title": "Algorithm"
+          },
+          "cluster_label": {
+            "type": "integer",
+            "title": "Cluster Label"
+          },
+          "cluster_name": {
+            "type": "string",
+            "title": "Cluster Name"
+          },
+          "district_count": {
+            "type": "integer",
+            "title": "District Count"
+          },
+          "avg_centroid_dist": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avg Centroid Dist"
+          },
+          "districts": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Districts"
+          }
+        },
+        "type": "object",
+        "required": [
+          "run_name",
+          "algorithm",
+          "cluster_label",
+          "cluster_name",
+          "district_count",
+          "avg_centroid_dist",
+          "districts"
+        ],
+        "title": "ClusterSummaryEntry"
+      },
+      "CompareEntry": {
+        "properties": {
+          "district_id": {
+            "type": "string",
+            "title": "District Id"
+          },
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "overall_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overall Score"
+          },
+          "indicator_scores": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Indicator Scores"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_id",
+          "district_name",
+          "overall_score",
+          "indicator_scores"
+        ],
+        "title": "CompareEntry"
+      },
+      "DimensionRankingEntry": {
+        "properties": {
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "dimension": {
+            "type": "string",
+            "title": "Dimension"
+          },
+          "dimension_score": {
+            "type": "number",
+            "title": "Dimension Score"
+          },
+          "dim_rank": {
+            "type": "integer",
+            "title": "Dim Rank"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_name",
+          "dimension",
+          "dimension_score",
+          "dim_rank"
+        ],
+        "title": "DimensionRankingEntry"
+      },
+      "DimensionScore": {
+        "properties": {
+          "dimension": {
+            "type": "string",
+            "title": "Dimension"
+          },
+          "score": {
+            "type": "number",
+            "title": "Score"
+          }
+        },
+        "type": "object",
+        "required": [
+          "dimension",
+          "score"
+        ],
+        "title": "DimensionScore"
+      },
+      "DistrictProfile": {
+        "properties": {
+          "district_id": {
+            "type": "string",
+            "title": "District Id"
+          },
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "area_km2": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Area Km2"
+          },
+          "population": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Population"
+          },
+          "overall_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overall Score"
+          },
+          "overall_rank": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overall Rank"
+          },
+          "cluster_label": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cluster Label"
+          },
+          "cluster_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cluster Name"
+          },
+          "dimension_scores": {
+            "items": {
+              "$ref": "#/components/schemas/DimensionScore"
+            },
+            "type": "array",
+            "title": "Dimension Scores"
+          },
+          "normalized_scores": {
+            "items": {
+              "$ref": "#/components/schemas/NormalizedScore"
+            },
+            "type": "array",
+            "title": "Normalized Scores"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_id",
+          "district_name",
+          "area_km2",
+          "population",
+          "overall_score",
+          "overall_rank",
+          "cluster_label",
+          "cluster_name",
+          "dimension_scores",
+          "normalized_scores"
+        ],
+        "title": "DistrictProfile"
+      },
+      "DistrictSummary": {
+        "properties": {
+          "district_id": {
+            "type": "string",
+            "title": "District Id"
+          },
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "area_km2": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Area Km2"
+          },
+          "population": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Population"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_id",
+          "district_name",
+          "area_km2",
+          "population"
+        ],
+        "title": "DistrictSummary"
+      },
+      "EDADisparityEntry": {
+        "properties": {
+          "indicator_name": {
+            "type": "string",
+            "title": "Indicator Name"
+          },
+          "dimension": {
+            "type": "string",
+            "title": "Dimension"
+          },
+          "disparity_range": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Disparity Range"
+          },
+          "max_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Score"
+          },
+          "min_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Min Score"
+          }
+        },
+        "type": "object",
+        "required": [
+          "indicator_name",
+          "dimension",
+          "disparity_range",
+          "max_score",
+          "min_score"
+        ],
+        "title": "EDADisparityEntry"
+      },
+      "EDAOutlierEntry": {
+        "properties": {
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "indicator_name": {
+            "type": "string",
+            "title": "Indicator Name"
+          },
+          "dimension": {
+            "type": "string",
+            "title": "Dimension"
+          },
+          "observed_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Observed Value"
+          },
+          "indicator_mean": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Indicator Mean"
+          },
+          "indicator_std": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Indicator Std"
+          },
+          "z_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Z Score"
+          },
+          "flag": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Flag"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_name",
+          "indicator_name",
+          "dimension",
+          "observed_value",
+          "indicator_mean",
+          "indicator_std",
+          "z_score",
+          "flag"
+        ],
+        "title": "EDAOutlierEntry"
+      },
+      "EDAUnevennessEntry": {
+        "properties": {
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "score_range": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score Range"
+          },
+          "avg_dim_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avg Dim Score"
+          },
+          "dimensions_covered": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Dimensions Covered"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_name",
+          "score_range",
+          "avg_dim_score",
+          "dimensions_covered"
+        ],
+        "title": "EDAUnevennessEntry"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "IndicatorInfo": {
+        "properties": {
+          "indicator_code": {
+            "type": "string",
+            "title": "Indicator Code"
+          },
+          "indicator_name": {
+            "type": "string",
+            "title": "Indicator Name"
+          },
+          "dimension": {
+            "type": "string",
+            "title": "Dimension"
+          },
+          "direction": {
+            "type": "string",
+            "title": "Direction"
+          },
+          "unit": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unit"
+          }
+        },
+        "type": "object",
+        "required": [
+          "indicator_code",
+          "indicator_name",
+          "dimension",
+          "direction",
+          "unit"
+        ],
+        "title": "IndicatorInfo"
+      },
+      "IndicatorStats": {
+        "properties": {
+          "indicator_name": {
+            "type": "string",
+            "title": "Indicator Name"
+          },
+          "dimension": {
+            "type": "string",
+            "title": "Dimension"
+          },
+          "direction": {
+            "type": "string",
+            "title": "Direction"
+          },
+          "n": {
+            "type": "integer",
+            "title": "N"
+          },
+          "mean_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Mean Value"
+          },
+          "min_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Min Value"
+          },
+          "max_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Value"
+          },
+          "range_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Range Value"
+          },
+          "cv_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cv Pct"
+          }
+        },
+        "type": "object",
+        "required": [
+          "indicator_name",
+          "dimension",
+          "direction",
+          "n",
+          "mean_value",
+          "min_value",
+          "max_value",
+          "range_value",
+          "cv_pct"
+        ],
+        "title": "IndicatorStats"
+      },
+      "NormalizedScore": {
+        "properties": {
+          "indicator_code": {
+            "type": "string",
+            "title": "Indicator Code"
+          },
+          "normalized_score": {
+            "type": "number",
+            "title": "Normalized Score"
+          }
+        },
+        "type": "object",
+        "required": [
+          "indicator_code",
+          "normalized_score"
+        ],
+        "title": "NormalizedScore"
+      },
+      "RankingEntry": {
+        "properties": {
+          "district_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "District Id"
+          },
+          "district_name": {
+            "type": "string",
+            "title": "District Name"
+          },
+          "overall_score": {
+            "type": "number",
+            "title": "Overall Score"
+          },
+          "district_rank": {
+            "type": "integer",
+            "title": "District Rank"
+          },
+          "weight_coverage": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Weight Coverage"
+          },
+          "is_valid": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Is Valid"
+          }
+        },
+        "type": "object",
+        "required": [
+          "district_id",
+          "district_name",
+          "overall_score",
+          "district_rank",
+          "weight_coverage",
+          "is_valid"
+        ],
+        "title": "RankingEntry"
+      },
+      "RecommendationEntry": {
+        "properties": {
+          "indicator_code": {
+            "type": "string",
+            "title": "Indicator Code"
+          },
+          "priority": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Priority"
+          },
+          "sdg_reference": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sdg Reference"
+          },
+          "action_area": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Action Area"
+          },
+          "recommendation_text": {
+            "type": "string",
+            "title": "Recommendation Text"
+          },
+          "normalized_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Normalized Score"
+          }
+        },
+        "type": "object",
+        "required": [
+          "indicator_code",
+          "priority",
+          "sdg_reference",
+          "action_area",
+          "recommendation_text",
+          "normalized_score"
+        ],
+        "title": "RecommendationEntry"
+      },
+      "StatusResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "project": {
+            "type": "string",
+            "title": "Project"
+          },
+          "version": {
+            "type": "string",
+            "title": "Version"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "project",
+          "version"
+        ],
+        "title": "StatusResponse"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}
